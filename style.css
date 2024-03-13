@@ -68,9 +68,27 @@ button:hover{
 
 button:active{
     background-color:  hsl(75, 94%, 57%);
-    color: black;    
+    color: black;
+      
 }
 
 .attribution a{
     color: hsl(228, 45%, 44%);
+}
+
+/* Media queries screen <= 425px */
+
+@media(max-width:425px){
+
+    .container{
+        width: 90%;
+    }
+
+    .attribution{
+        width: 85%;
+        font-size: 0.9em;
+        margin: 0 auto;
+    }
+
+
 }
