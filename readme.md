@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot Active States
 
-![]()
+![](https://github.com/LuisAngel96/social-links-profile/blob/main/design/active-status.gif)
 
 
 ### Links
