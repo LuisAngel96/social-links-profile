@@ -19,12 +19,19 @@ body{
     height: 600px;
     border-radius: 1rem;
     margin: 1rem;
+    box-shadow: 1px 0px 15px 5px #ce605c52;
 }
 
 .container img{
     width: 80px;
     margin: 2rem 0 1.5rem 0;
     border-radius: 10rem;
+}
+
+.container img:hover{
+    scale: 1.2;
+    transition: 0.2s;
+    box-shadow: 1px 0px 5px 5px #ce605c52;
 }
 
 .text-container h2{
@@ -51,33 +58,33 @@ body{
     margin: 0 auto;
 }
 
-button{
+.button-social-media{
     background-color: hsl(0, 0%, 20%);
     margin: 0.5rem;
-    height: 3rem;
+    padding: 1.1rem;
     font-weight: 600;
     border: none;
     border-radius: 0.5rem;
     font-size: 0.90em;
     cursor: pointer;
-}
-
-button a{
     text-decoration: none;
+    align-items: center;
 }
 
-button:hover{
+.button-social-media:hover{
     background-color:  #ce605c52;
+    scale: 1.05;
+    transition: 0.1s;
 }
 
-button:active{
+.button-social-media:active{
     background-color:  #e23933;
     color: black;
       
 }
 
 .attribution a{
-    color: hsl(228, 45%, 44%);
+    color: #e23933;
 }
 
 /* Media queries screen <= 425px */
