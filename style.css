@@ -34,7 +34,7 @@ body{
 }
 
 .location{
-    color: hsl(75, 94%, 57%);
+    color: #e23933;
     font-size: 0.9em;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -62,12 +62,16 @@ button{
     cursor: pointer;
 }
 
+button a{
+    text-decoration: none;
+}
+
 button:hover{
-    background-color:  hsla(75, 92%, 86%, 0.226);
+    background-color:  #ce605c52;
 }
 
 button:active{
-    background-color:  hsl(75, 94%, 57%);
+    background-color:  #e23933;
     color: black;
       
 }
