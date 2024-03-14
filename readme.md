@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot Active States
 
-![](https://github.com/LuisAngel96/social-links-profile/blob/main/design/active-status.gif)
+![](design/active-status.gif)
 
 
 ### Links
 
-- Solution URL: [Github Solution](https://github.com/LuisAngel96/qr-code-component)
-- Live Site URL: [Live site](https://luisangel96.github.io/qr-code-component/)
+- Solution URL: [Github Solution](https://github.com/LuisAngel96/social-links-profile)
+- Live Site URL: [Live site](https://luisangel96.github.io/social-links-profile/)
 
 ## My process
 
@@ -46,6 +46,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flex
+- Media queries
 
 ### Continued development
 
